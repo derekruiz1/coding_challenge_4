@@ -47,3 +47,10 @@ let products = ["AirPods", "Iphone", "Macbook"] //Array of Products
 for (let product of products) {
     console.log(`${product}`);
 }; //Displaying products
+
+//Task 7
+let orders = [476, 999, 137] //Array of orders
+
+orders.forEach(order => {
+    console.log(`${order}`)
+}); //Displaying Orders
