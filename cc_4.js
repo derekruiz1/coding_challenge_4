@@ -54,3 +54,10 @@ let orders = [476, 999, 137] //Array of orders
 orders.forEach(order => {
     console.log(`${order}`)
 }); //Displaying Orders
+
+//Task 8
+function calculateTax(price,tax) {
+    console.log(price *= tax)
+} //Creating function, tax is based on chosen price and tax rate
+
+calculateTax(100,0.1); //Shows tax on price, given tax rate
