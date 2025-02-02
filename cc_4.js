@@ -30,3 +30,13 @@ do {
     console.log(responces);
 } while (responces <= 2); //Responces keep adding until it reaches 3
 
+//Task 5
+let employee = {
+    name: "Ciara",
+    position: "Manager",
+    salary: 100000
+}; //Employee Information
+
+for (let key in employee) {
+   console.log(`${key}: ${employee[key]}`)
+    }; //Displaying employee information
