@@ -16,3 +16,9 @@ for (let index = 0; index < sales.length; index++) {
     console.log(SalesReport += sales[index]);   
 }; // Loop to calculate sales
 
+//Task 3
+let stock = 10
+while (stock >= 0) {
+    console.log(stock)
+    stock -= 1;
+} //Reducing Stock by 1 until it reaches 0
