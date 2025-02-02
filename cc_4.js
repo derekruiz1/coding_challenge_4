@@ -61,3 +61,9 @@ function calculateTax(price,tax) {
 } //Creating function, tax is based on chosen price and tax rate
 
 calculateTax(100,0.1); //Shows tax on price, given tax rate
+
+//Task 9 
+function applyDiscount(FullPrice,discount) {
+    console.log(FullPrice -= (FullPrice *= discount))
+} //Created function that makes discounted price based on price and discount
+applyDiscount(100,0.05); //Shows price after discount
