@@ -67,3 +67,7 @@ function applyDiscount(FullPrice,discount) {
     console.log(FullPrice -= (FullPrice *= discount))
 } //Created function that makes discounted price based on price and discount
 applyDiscount(100,0.05); //Shows price after discount
+
+//Task 10 
+const calculatePoints = purchase => purchase *= 0.1; //Calculates points 1 point per $10 spent
+console.log(calculatePoints(100));
