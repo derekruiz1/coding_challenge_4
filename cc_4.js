@@ -22,3 +22,11 @@ while (stock >= 0) {
     console.log(stock)
     stock -= 1;
 } //Reducing Stock by 1 until it reaches 0
+
+//Task 4 
+let responces = 0
+do {
+    responces++
+    console.log(responces);
+} while (responces <= 2); //Responces keep adding until it reaches 3
+
